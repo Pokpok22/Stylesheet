@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px 100px;
+}
+
+section {
+    border: 2px dotted darkgray;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 25px 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Comfortaa';
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Comfortaa';
+}
+
+h3 {
+    font-size: 25px;
+    color: rgb(93, 93, 93);
+    text-decoration: underline;
+    font-weight: 400;
+    font-family: 'Comfortaa';
+}
+
+p , li {
+    font-size: 20px;
+    font-family: 'Raleway';
+    font-weight: 300;
+}
+
+.h1 h1 , .h2 h2 {
+    text-align: left;
+}
+
+.colors p {
+    text-align: center;
+    font-family: 'Comfortaa';
+    line-height: 21px;
+    margin-top: 35px;
+}
+
+.boxes div {
+    display: inline-block;
+    height: 220px;
+    width: 220px;
+}
+
+section.colors {
+    text-align: center;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.r100 {
+    font-weight: 100;
+}
+
+.r200 {
+    font-weight: 200;
+}
+
+.r300 {
+    font-weight: 300;
+}
+
+.r400 {
+    font-weight: 400;
+}
+
+.r500 {
+    font-weight: 500;
+}
+
+.r600 {
+    font-weight: 600;
+}
+
+.r700 {
+    font-weight: 700;
+}
+
+.r800 {
+    font-weight: 800;
+}
+
+.r900 {
+    font-weight: 900;
+}
+
+.comfortaa p, #c-header {
+    font-family: 'Comfortaa';
+}
+
+.open-sans p, #os-header {
+    font-family: 'Open Sans';
+}
+
+.raleway p, #r-header {
+    font-family: 'Raleway';
+}
+
+#isabelline {
+    background-color: #edede9;
+}
+
+#timberwolf {
+    background-color: #d6ccc2;
+}
+
+#linen {
+    background-color: #f5ebe0;
+}
+
+#champagne-pink {
+    background-color: #e3d5ca;
+}
+
+#pale-dogwood {
+    background-color: #d5bdaf;
+}
+
+.open-sans > div , .raleway > div {
+    display: inline-block;
+    vertical-align: top;
+    width: 540px;
+}  
+
+section.fonts , section.text-styles {
+    padding: 30px 60px;
+}
